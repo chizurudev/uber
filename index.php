@@ -33,7 +33,6 @@
                 </div>
             </div>
 
-            <!-- <div class="col-sm-12 col-lg-7">LOCATION TRACKER</div> -->
             <div class="col-sm-12 col-lg-7">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7944.390521349006!2d7.0006623!3d5.3871828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10425dceaaaaaaab%3A0x106fc305f260cd5b!2sHOSTEL%20E!5e0!3m2!1sen!2sng!4v1764676646060!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
