@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.js">
     <link rel="stylesheet" href="css/bootstrap/popper.min.js">
     <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js" integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap-grid.min.css" integrity="sha512-dOjUSaLkr6G2pwQ7ry9juX+iXw5602zg1kg8yH+guR3uSEidGyCnOEQnGlr7xwu/8WE+pVm1ZNqaIs5ETTIJQg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 </head>
 
 <body>
-
+  <?php require("mainheader.php")  ?>
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-lg-4">
-                <h2>Go anywhere with <br> Uber.</h2>
+            <div class="col-sm-12 col-lg-5">
+                <h1>Go anywhere with <br> Uber.</h1>
                 <div class="form-group">
                     <input class="form-control" type="text" name="pickuplocation" id="dropofflocation" placeholder="Pickup Location" required>
                 </div>
@@ -27,14 +30,15 @@
 
                 <div>
                     <button class="submit" id="send">See Price</button>
-                </div>
-                <div>
                     <i><a href="login.php"> Log in to see your Recent Acticvity </a></i>
                 </div>
             </div>
+            <div class="col-sm-12 col-lg-1">
 
-            <!-- <div class="col-sm-12 col-lg-7">LOCATION TRACKER</div> -->
-            <div class="col-sm-12 col-lg-7">
+            </div>
+
+            <!-- LOCATION TRACKER -->
+            <div class="col-sm-12 col-lg-6">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7944.390521349006!2d7.0006623!3d5.3871828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10425dceaaaaaaab%3A0x106fc305f260cd5b!2sHOSTEL%20E!5e0!3m2!1sen!2sng!4v1764676646060!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
@@ -75,7 +79,7 @@
         <br>
         <div class="row">
 
-            <div class="col-sm-12 col-lg-5">
+            <div class="col-sm-12 col-lg-6">
                 <h3>Log in to see your <br>reccent activity</h3>
                 <br>
                 <p>View past trips, tailored suggestions, support resources, <br> and more.</p>
@@ -107,7 +111,7 @@
         <br>
         <br>
         <div class="row">
-            <div class="col-sm-12 col-lg-5">
+            <div class="col-sm-12 col-lg-6">
                 <h3>The Uber you<br>know, reimagined<br>for business</h3>
                 <br>
                 <p>Uber for Business is a platform for managing global rides and <br> meals, and local deliveries, for companies of any size. <br>through Uber.</p>
@@ -130,7 +134,7 @@
     <div id="indexdpage">
 
         <p>
-        <h5>Uber</h5>
+        <h5>Uber</h5><br>
         </p>
         <br>
         <p>visit Help Center</p>
@@ -138,37 +142,34 @@
         <br>
         <div class="row" id="dpage">
             <div class="col-sm-12 col-lg-3">
-                <h5>Company</h5>
-                <p>Our Offerings</p>
-                <p>Newsroom</p>
-                <p>Investors</p>
-                <p>Blog</p>
-                <p>Careers</p>
+                <h5>Company</h5><br>
+                <p>Our Offerings</p><br>
+                <p>Newsroom</p><br>
+                <p>Investors</p><br>
+                <p>Blog</p><br>
+                <p>Careers</p><br>
             </div>
-            <br>
-            <br>
+            
             <div class="col-sm-12 col-lg-3">
-                <h5>Products</h5>
-                <p>Ride</p>
-                <p>Drive</p>
-                <p>Eat</p>
-                <p>Uber Freight</p>
-                <p>Gift cards</p>
+                <h5>Products</h5><br>
+                <p>Ride</p><br>
+                <p>Drive</p><br>
+                <p>Eat</p><br>
+                <p>Uber Freight</p><br>
+                <p>Gift cards</p><br>
             </div>
-            <br>
-            <br>
+          
             <div class="col-sm-12 col-lg-3">
-                <h5>Global Citizenship</h5>
-                <p>Safety</p>
-                <p>Sustainability</p>
+                <h5>Global Citizenship</h5><br>
+                <p>Safety</p><br>
+                <p>Sustainability</p><br>
             </div>
-            <br>
-            <br>
+        
             <div class="col-sm-12 col-lg-3">
-                <h5>Travel</h5>
-                <p>Reserve</p>
-                <p>Airports</p>
-                <p>Cities</p>
+                <h5>Travel</h5><br>
+                <p>Reserve</p><br>
+                <p>Airports</p><br>
+                <p>Cities</p><br>
             </div>
             <br>
             <br>
