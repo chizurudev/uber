@@ -1,0 +1,40 @@
+.custom-bg {
+  background-color: linen;
+}
+
+.cuscard-radius {
+  border-radius: 10px;
+}
+
+.cusbtncard1 {
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-size: 18px;
+  width: 100;
+}
+
+.indeximg {
+  width: 600px;
+  height: 400px;
+}
+
+#send {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  width: auto;
+  font-size: 18px;
+  padding: 12px 30px;
+}
+
+#indexdpage {
+  background-color: black;
+  color: white;
+  flex-direction: inherit;
+  padding: 2rem 10rem;
+}
+
+
