@@ -37,7 +37,63 @@
   padding: 2rem 10rem;
 }
 
+.custom-navbar {
+  background: black;
 
+}
 
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
+.nav-link {
+  font-weight: 500;
+  transition: all 0.3s;
+}
 
+.nav-link:hover {
+  transform: translateY(-2px);
+}
+
+.btn-signup {
+  background: white;
+  color: #667eea;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.btn-signup:hover {
+  background: #f8f9fa;
+  color: #667eea;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+div.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    display: flex;
+    gap: 20px;
+    button {
+      background-color: #000;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+  }
+  .left-side {
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      p {
+        margin: unset !important;
+      }
+    }
+  }
+}

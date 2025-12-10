@@ -9,14 +9,73 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.js">
     <link rel="stylesheet" href="css/bootstrap/popper.min.js">
     <link rel="stylesheet" href="css/index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js" integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js" integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script> -->
+
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap-grid.min.css" integrity="sha512-dOjUSaLkr6G2pwQ7ry9juX+iXw5602zg1kg8yH+guR3uSEidGyCnOEQnGlr7xwu/8WE+pVm1ZNqaIs5ETTIJQg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css" integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-  <?php require("mainheader.php")  ?>
 
+<body>
+
+     <!-- Navigation Bar -->
+ <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+   <div class="container-fluid">
+     <!-- Brand -->
+     <a class="navbar-brand" href="#">MyBrand</a>
+
+     <!-- Mobile Toggle Button -->
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <!-- Navigation Content -->
+     <div class="collapse navbar-collapse" id="navbarContent">
+       <!-- Left Side: 3 Links + 1 Dropdown -->
+       <ul class="navbar-nav me-auto">
+         <li class="nav-item">
+           <a class="nav-link active" href="#">Home</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">About</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Services</a>
+         </li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+             Products
+           </a>
+           <ul class="dropdown-menu">
+             <li><a class="dropdown-item" href="#">Product 1</a></li>
+             <li><a class="dropdown-item" href="#">Product 2</a></li>
+             <li><a class="dropdown-item" href="#">Product 3</a></li>
+             <li>
+               <hr class="dropdown-divider">
+             </li>
+             <li><a class="dropdown-item" href="#">All Products</a></li>
+           </ul>
+         </li>
+       </ul>
+
+       <!-- Right Side: 2 Links + Sign Up Button -->
+       <ul class="navbar-nav">
+         <li class="nav-item">
+           <a class="nav-link" href="#">Contact</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Login</a>
+         </li>
+         <li class="nav-item">
+           <a class="btn btn-signup ms-2" href="#">Sign Up</a>
+         </li>
+       </ul>
+     </div>
+   </div>
+ </nav>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-lg-5">
@@ -174,21 +233,37 @@
             <br>
             <br>
         </div>
+
+        <div class="socials">
+            <div>
+                <button class="btn"> <i class="fa-brands fa-facebook"></i> </button>
+                <button class="btn"> <i class="fa-brands fa-twitter"></i> </button>
+                <button class="btn"> <i class="fa-brands fa-youtube"></i> </button>
+                <button class="btn"> <i class="fa-brands fa-linkedin"></i> </button>
+                <button class="btn"> <i class="fa-brands fa-instagram"></i> </button>
+            </div>
+
+            <div class="left-side">
+                <button class="btn"> <i class="fa-solid fa-globe"></i> <p> English </p>  </button>
+                <button class="btn"> <i class="fa-solid fa-location-crosshairs"></i> <p> San Francisco Buy Area </p>  </button>
+            </div>
+        </div>
     </div>
-    <script>
+
+    <!-- <script>
         $('#navId a').click(e => {
             e.preventDefault();
             $(this).tab('show');
         });
-    </script>
+    </script> -->
 
 
 </body>
 
 </html>
-<?php
+<!-- <?php
 $a = 1;
 if ($a == 2) {
     echo "a=2";
 }
-?>
+?> -->

@@ -10,10 +10,10 @@
 
 </head>
 
+<?php  require("mainheader.php")  ?>
 <body>
-    <?php  require("mainheader.php")  ?>
 
-    <div class="container">
+    <div class="container-fluid">
     <div class="row">
             <div class="col-sm-12 col-lg-2"></div>
             <div class="col-sm-12 col-md-8 col-lg-8">
@@ -40,7 +40,7 @@
                     </div>
 
                     <div style="padding:10px">
-                        <button type="submit" class="btn btn-success badge badge-secondary badge-large">
+                        <button type="submit">
                             Log In <span></span>
 
                         </button>
