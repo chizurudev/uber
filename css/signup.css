@@ -37,3 +37,12 @@
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
 }
+
+#navbarContent{
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+background: #667eea;
+color: rgb(237, 12, 12);
+}

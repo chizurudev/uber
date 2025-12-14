@@ -18,14 +18,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css" integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-
+<?php require("mainheader.php")  ?>
+<br>
+<br>
 <body>
 
      <!-- Navigation Bar -->
  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
    <div class="container-fluid">
      <!-- Brand -->
-     <a class="navbar-brand" href="#">MyBrand</a>
+     <a class="navbar-brand" href="#">Uber</a>
 
      <!-- Mobile Toggle Button -->
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
@@ -37,17 +39,17 @@
        <!-- Left Side: 3 Links + 1 Dropdown -->
        <ul class="navbar-nav me-auto">
          <li class="nav-item">
-           <a class="nav-link active" href="#">Home</a>
+           <a class="nav-link active" href="#">Ride</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">About</a>
+           <a class="nav-link" href="#">Drive</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">Services</a>
+           <a class="nav-link" href="#">Uber Eats</a>
          </li>
          <li class="nav-item dropdown">
            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-             Products
+             About
            </a>
            <ul class="dropdown-menu">
              <li><a class="dropdown-item" href="#">Product 1</a></li>

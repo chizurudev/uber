@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
-       <!-- <link rel="stylesheet" href="css/fontawesome-all.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/fontawesome-all.min.css"> -->
     <link rel="stylesheet" href="css/login.css">
     <title>Signin Page</title>
 
 </head>
 
-<?php  require("mainheader.php")  ?>
+<?php require("mainheader.php")  ?>
+<br>
+<br>
+
 <body>
 
     <div class="container-fluid">
-    <div class="row">
-            <div class="col-sm-12 col-lg-2"></div>
-            <div class="col-sm-12 col-md-8 col-lg-8">
-                <div class="card">
-                    <div class="card-header">
-                        <h4>Enter your login detail</h4>
+
+
+
+        <form action="post">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="card card-body">
+                    
+                        <p><b>Please fill in your username and password</b></p>
+                        <hr>
+
+                        <div class="form-group">
+                            <label for="txtFirstname"><b>Username or Email:</b></label>
+                            <input class="form-control" type="text" name="txtUsername" id="txtUsername"
+                                placeholder="eg. jamesmi@gmail.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="txtPassword"><b>Enter Password:</b></label>
+                            <input class="form-control" type="password" name="txtPassword" id="txtPassword"
+                                placeholder="Enter Your Password" required>
+                        </div>
+                        <br>
+                        <hr>
+                        <button type="submit" class="btnSubmit"><b>Login</b></button>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success">
-                            <h5>Login Successful</h5>
+
+                        <div class="container signin">
+                          <p><b>Don't have an account? <a href="login.php">Click Sign up.</a></b></p>
                         </div>
-                       
-                           
-                            <div class="form-group">
-                                <label for="txtUsername">Email or Username:</label>
-                                <input class="form-control" type="text" name="txtUsername" id="txtUsername" placeholder="Enter Your Email or Username">
-                            </div>
-                           
-                            <div class="form-group">
-                                <label for="txtPassword">Enter Password:</label>
-                                <input class="form-control" type="password" name="txtPassword" id="txtPassword" class="fa fa-eye " placeholder="Enter Your Password">
-                            </div>
-
                     </div>
-
-                    <div style="padding:10px">
-                        <button type="submit">
-                            Log In <span></span>
-
-                        </button>
-                    </div>
-
-                    </form>
                 </div>
+                <div class="col-md-3"></div>
             </div>
+            <?php
+            ?>
 
-        </div>
-        <div class="col-sm-12 col-md-2 col-lg-2"></div>
-    </div>
+        </form>
     </div>
 </body>
+
 </html>

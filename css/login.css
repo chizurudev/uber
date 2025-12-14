@@ -33,3 +33,18 @@
      box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
  }
 
+ #navbarContent{
+  display: flex;
+  justify-content: space-between;
+}
+div.card{
+    margin-top:50px;
+    background:#6A89A7;
+}
+div.card-body{
+    color: red;
+    background:#F5F6FA;
+}
+
+
+

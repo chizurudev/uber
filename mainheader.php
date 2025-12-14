@@ -2,7 +2,7 @@
  <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
    <div class="container-fluid">
      <!-- Brand -->
-     <a class="navbar-brand" href="#">MyBrand</a>
+     <a class="navbar-brand" href="#">Uber</a>
 
      <!-- Mobile Toggle Button -->
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
@@ -14,17 +14,17 @@
        <!-- Left Side: 3 Links + 1 Dropdown -->
        <ul class="navbar-nav me-auto">
          <li class="nav-item">
-           <a class="nav-link active" href="#">Home</a>
+           <a class="nav-link active" href="#">Ride</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">About</a>
+           <a class="nav-link" href="#">Drive</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">Services</a>
+           <a class="nav-link" href="#">Uber Eat</a>
          </li>
          <li class="nav-item dropdown">
            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-             Products
+             About
            </a>
            <ul class="dropdown-menu">
              <li><a class="dropdown-item" href="#">Product 1</a></li>
@@ -44,10 +44,10 @@
            <a class="nav-link" href="#">Contact</a>
          </li>
          <li class="nav-item">
-           <a class="nav-link" href="#">Login</a>
+           <a class="nav-link" href="login.php">Login</a>
          </li>
          <li class="nav-item">
-           <a class="btn btn-signup ms-2" href="#">Sign Up</a>
+           <a class="btn btn-signup ms-2" href="signup.php">Sign Up</a>
          </li>
        </ul>
      </div>

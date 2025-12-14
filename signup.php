@@ -22,7 +22,7 @@
         <form action="post">
             <div class="row">
                 <div class="col-md-3"></div>
-                <div class="col-md-6">
+                <div class="col-md-6" id="form">
                     <div class="card card-body">
                         <h3>Register</h3>
                         <p>Please fill in this form to create an account</p>
