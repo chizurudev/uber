@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6" id="form">
-                    <div class="card card-body">
+                    <div class="card card-body" id="body">
                         <h3>Register</h3>
                         <p>Please fill in this form to create an account</p>
                         <hr>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="card-body">
 
-                        <div class="container signin">
+                        <div class="containersignin">
                             <p>Already have an account? <a href="login.php">Sign in.</a></p>
                         </div>
                     </div>
