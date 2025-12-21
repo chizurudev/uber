@@ -76,29 +76,59 @@ div.socials {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   div {
     display: flex;
     gap: 20px;
+
     button {
       background-color: #000;
       color: #fff;
       font-size: 1.5rem;
     }
   }
+
   .left-side {
     button {
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 10px;
+
       p {
         margin: unset !important;
       }
     }
   }
 }
+
+div.down-footer {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  div {
+    display:flex;
+    gap:30px;
+  }
+  p {
+    margin: unset !important;
+  }
+}
  
 #navbarContent{
+  display: flex;
+  justify-content: space-between;
+}
+
+.down-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: inherit;
+}
+
+
+#navbarContent {
   display: flex;
   justify-content: space-between;
 }
