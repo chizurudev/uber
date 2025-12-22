@@ -114,19 +114,6 @@ div.down-footer {
     margin: unset !important;
   }
 }
- 
-#navbarContent{
-  display: flex;
-  justify-content: space-between;
-}
-
-.down-footer {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  gap: inherit;
-}
-
 
 #navbarContent {
   display: flex;
