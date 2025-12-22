@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.js">
     <link rel="stylesheet" href="css/bootstrap/popper.min.js">
     <link rel="stylesheet" href="css/index.css">
+    link
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js" integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script> -->
 
@@ -149,33 +150,33 @@
         <div class="row" id="dpage">
             <div class="col-sm-12 col-lg-3">
                 <h5>Company</h5><br>
-                <p>Our Offerings</p><br>
-                <p>Newsroom</p><br>
-                <p>Investors</p><br>
-                <p>Blog</p><br>
-                <p>Careers</p><br>
+                <p><a href=""></a>Our Offerings</p><br>
+                <p><a href=""></a>Newsroom</p><br>
+                <p><a href=""></a>Investors</p><br>
+                <p><a href=""></a>Blog</p><br>
+                <p><a href=""></a>Careers</p><br>
             </div>
 
             <div class="col-sm-12 col-lg-3">
                 <h5>Products</h5><br>
-                <p>Ride</p><br>
-                <p>Drive</p><br>
-                <p>Eat</p><br>
-                <p>Uber Freight</p><br>
-                <p>Gift cards</p><br>
+                <p><a href=""></a>Ride</p><br>
+                <p><a href=""></a>Drive</p><br>
+                <p><a href=""></a>Eat</p><br>
+                <p><a href=""></a>Uber Freight</p><br>
+                <p><a href=""></a>Gift cards</p><br>
             </div>
 
             <div class="col-sm-12 col-lg-3">
                 <h5>Global Citizenship</h5><br>
-                <p>Safety</p><br>
-                <p>Sustainability</p><br>
+                <p><a href=""></a>Safety</p><br>
+                <p><a href=""></a>Sustainability</p><br>
             </div>
 
             <div class="col-sm-12 col-lg-3">
                 <h5>Travel</h5><br>
-                <p>Reserve</p><br>
-                <p>Airports</p><br>
-                <p>Cities</p><br>
+                <p><a href=""></a>Reserve</p><br>
+                <p><a href=""></a>Airports</p><br>
+                <p><a href=""></a>Cities</p><br>
             </div>
             <br>
             <br>
@@ -204,7 +205,7 @@
 
         <div class="down-footer">
             <div>
-                &copy; 2025 Uber technologies
+                &copy; 2025 Uber technologies Inc. 
             </div>
 
             <div class="left-side">
