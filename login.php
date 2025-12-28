@@ -26,7 +26,7 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <div class="card card-body">
-                    
+
                         <p><b>Please fill in your username and password</b></p>
                         <hr>
 
@@ -48,7 +48,7 @@
                     <div class="card-body">
 
                         <div class="container signin">
-                          <p><b>Don't have an account? <a href="login.php">Click Sign up.</a></b></p>
+                            <p><b>Don't have an account? <a href="login.php">Click Sign up.</a></b></p>
                         </div>
                     </div>
                 </div>
