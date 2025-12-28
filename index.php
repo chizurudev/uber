@@ -33,10 +33,19 @@
                 <div class="form-group">
                     <input class="form-control" type="text" name="dropofflocation" id="dropofflocation" placeholder="Dropoff Location " required>
                 </div>
+                
+                <div class="small-inputs">
+                    <div class="form-group">
+                    <input class="form-control" type="text" name="dropofflocation" id="dropofflocation" placeholder="Dropoff Location " required>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="dropofflocation" id="dropofflocation" placeholder="Dropoff Location " required>
+                </div>
+                </div>
 
                 <div>
                     <button class="submit" id="send">See Price</button>
-                    <i><a href="login.php"> Log in to see your Recent Acticvity </a></i>
+                    <a href="login.php"> Log in to see your Recent Acticvity </a>
                 </div>
             </div>
             <div class="col-sm-12 col-lg-1">
