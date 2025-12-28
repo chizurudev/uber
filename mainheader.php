@@ -41,7 +41,7 @@
        <!-- Right Side: 2 Links + Sign Up Button -->
        <ul class="navbar-nav">
          <li class="nav-item">
-           <a class="nav-link" href="#">Contact</a>
+           <a class="nav-link" href="#">Help</a>
          </li>
          <li class="nav-item">
            <a class="nav-link" href="login.php">Login</a>
