@@ -75,8 +75,8 @@
                         <hr>
                         <p>By clicking register you agree to our <a href="conditions.php">Terms & Conditions.</a></p>
                         <button type="submit" class="btnSubmit">Register</button>
-                    </div>
-                    <div class="card-body">
+                    
+                    
 
                         <div class="containersignin">
                             <p>Already have an account? <a href="login.php">Sign in.</a></p>

@@ -103,13 +103,15 @@ div.socials {
 }
 
 div.down-footer {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   div {
-    display:flex;
-    gap:30px;
+    display: flex;
+    gap: 30px;
   }
+
   p {
     margin: unset !important;
   }
@@ -118,7 +120,7 @@ div.down-footer {
 div.small-inputs {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 
 }
 

@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="css/index.css">
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.min.js" integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script> -->
-    
+
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap-grid.min.css" integrity="sha512-dOjUSaLkr6G2pwQ7ry9juX+iXw5602zg1kg8yH+guR3uSEidGyCnOEQnGlr7xwu/8WE+pVm1ZNqaIs5ETTIJQg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css" integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="css/bootstrap/bootstrap.min.js"></script>
@@ -23,6 +23,7 @@
 <br>
 
 <body>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-lg-5">
@@ -33,15 +34,26 @@
                 <div class="form-group">
                     <input class="form-control" type="text" name="dropofflocation" id="dropofflocation" placeholder="Dropoff Location " required>
                 </div>
-                
-                <div class="small-inputs">
-                    <div class="form-group">
-                    <input class="form-control" type="text" name="dropofflocation" id="dropofflocation" placeholder="Dropoff Location " required>
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-6">
+
+                        <div class="">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="today" id="today" placeholder="Today " required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="now" id="now" placeholder=" Now " required>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input class="form-control" type="text" name="dropofflocation" id="dropofflocation" placeholder="Dropoff Location " required>
-                </div>
-                </div>
+
+
+
 
                 <div>
                     <button class="submit" id="send">See Price</button>
@@ -53,7 +65,7 @@
             </div>
 
             <!-- LOCATION TRACKER -->
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-sm-12 col-lg-5">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7944.390521349006!2d7.0006623!3d5.3871828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10425dceaaaaaaab%3A0x106fc305f260cd5b!2sHOSTEL%20E!5e0!3m2!1sen!2sng!4v1764676646060!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
@@ -213,7 +225,7 @@
 
         <div class="down-footer">
             <div>
-                &copy; 2025 Uber technologies Inc. 
+                &copy; 2025 Uber technologies Inc.
             </div>
 
             <div class="left-side">
