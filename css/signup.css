@@ -56,4 +56,6 @@
 div.card-body{
   margin-top:40px;
   font-weight:700;
+  background: black;
+  color:white;
 }

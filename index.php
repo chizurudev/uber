@@ -56,7 +56,7 @@
 
 
                 <div>
-                    <button class="submit" id="send">See Price</button>
+                    <button class="submit" id="send">See Price </button>
                     <a href="login.php"> Log in to see your Recent Acticvity </a>
                 </div>
             </div>
