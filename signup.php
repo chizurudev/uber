@@ -65,6 +65,7 @@
                             <label for="txtPassword">Enter Password:</label>
                             <input class="form-control" type="password" name="txtPassword" id="txtPassword"
                                 placeholder="Enter Your Password" required>
+                                <i id="show" style="cursor:pointer">show</i>
                         </div>
 
                         <div class="form-group">
