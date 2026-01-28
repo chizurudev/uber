@@ -63,7 +63,7 @@
 
                         <div class="form-group">
                             <label for="txtPassword">Enter Password:</label>
-                            <div style="border:solid; width:210px;height:20px">
+                            <div >
                                 <input on type="password" name="txtPassword" id="txtPassword" style="border:none">
                                 <i id="show" we style="cursor:pointer">show</i>
                             </div>
