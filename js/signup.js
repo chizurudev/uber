@@ -1,5 +1,5 @@
 let blnState = 0;
-let btnShow = document.getElementById("txtpaswor")
+let btnShow = document.getElementById("show")
 const showPass = () => {
     let password = document.getElementById("txtPassword");
     if (blnState === 0) {

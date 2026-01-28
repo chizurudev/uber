@@ -64,12 +64,13 @@
                         <div class="form-group">
                             <label for="txtPassword">Enter Password:</label>
                             <div >
-                                <input on type="password" name="txtPassword" id="txtPassword" style="border:none">
+                                <input on type="password" name="txtPassword" id="txtPassword"
+                                    placeholder="Enter Your Password" requiredS>
                                 <i id="show" we style="cursor:pointer">show</i>
                             </div>
                         </div>
 
-                        <div class="form-group">;'<;'
+                        <div class="form-group">
                                 <label for="txtPassword">Confirm Password:</label>
                                 <input class="form-control" type="password" name="txtCPassword" id="txtCPassword"
                                     placeholder="Confirm Your Password" required>
