@@ -63,15 +63,16 @@
 
                         <div class="form-group">
                             <label for="txtPassword">Enter Password:</label>
-                            <input class="form-control" type="password" name="txtPassword" id="txtPassword"
-                                placeholder="Enter Your Password" required>
-                                <i id="show" style="cursor:pointer">show</i>
+                            <div style="border:solid; width:210px;height:20px">
+                                <input on type="password" name="txtPassword" id="txtPassword" style="border:none">
+                                <i id="show" we style="cursor:pointer">show</i>
+                            </div>
                         </div>
 
-                        <div class="form-group">
-                            <label for="txtPassword">Confirm Password:</label>
-                            <input class="form-control" type="password" name="txtCPassword" id="txtCPassword"
-                                placeholder="Confirm Your Password" required>
+                        <div class="form-group">;'<;'
+                                <label for="txtPassword">Confirm Password:</label>
+                                <input class="form-control" type="password" name="txtCPassword" id="txtCPassword"
+                                    placeholder="Confirm Your Password" required>
                         </div>
                         <hr>
                         <p>By clicking register you agree to our <a href="conditions.php">Terms & Conditions.</a></p>
