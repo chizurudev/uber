@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- <link rel="stylesheet" href="css/fontawesome-all.min.css"> -->
     <link rel="stylesheet" href="css/signup.css">
-    <script src="signupup.js"></script>
+    <script src="js/signup.js"></script>
     <title>signup page</title>
 </head>
 
