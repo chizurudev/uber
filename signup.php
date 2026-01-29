@@ -67,7 +67,7 @@
                             <div>
                                 <input class="form-control" type="password" name="txtPassword" id="txtPassword"
                                     placeholder="Enter Your Password" required>
-                                <button type="button" id="show" class="btn btn-secondary btn-sm mt-2">Show</button>
+                                <button type="button" id="show" class="btn btn-secondary btn-sm mt-2" onclick="showPass()">Show</button>
                             </div>
                         </div>
 
@@ -96,7 +96,7 @@
     let blnState = 0;
     let btnShow = document.getElementById("show")
 
-    const showPass = () => {
+    function showPass() {
         let password = document.getElementById("txtPassword");
         if (blnState == 0) {
             password.type = "text";
