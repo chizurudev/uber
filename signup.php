@@ -64,17 +64,17 @@
 
                         <div class="form-group">
                             <label for="txtPassword">Enter Password:</label>
-                            <div >
-                                <input on type="password" name="txtPassword" id="txtPassword"
-                                    placeholder="Enter Your Password" requiredS>
-                                <i id="show" we style="cursor:pointer">show</i>
+                            <div>
+                                <input class="form-control" type="password" name="txtPassword" id="txtPassword"
+                                    placeholder="Enter Your Password" required>
+                                <button type="button" id="show" class="btn btn-secondary btn-sm mt-2">Show</button>
                             </div>
                         </div>
 
                         <div class="form-group">
-                                <label for="txtPassword">Confirm Password:</label>
-                                <input class="form-control" type="password" name="txtCPassword" id="txtCPassword"
-                                    placeholder="Confirm Your Password" required>
+                            <label for="txtPassword">Confirm Password:</label>
+                            <input class="form-control" type="password" name="txtCPassword" id="txtCPassword"
+                                placeholder="Confirm Your Password" required>
                         </div>
                         <hr>
                         <p>By clicking register you agree to our <a href="conditions.php">Terms & Conditions.</a></p>
@@ -92,5 +92,24 @@
         </form>
     </div>
 </body>
+<script>
+    let blnState = 0;
+    let btnShow = document.getElementById("show")
+
+    const showPass = () => {
+        let password = document.getElementById("txtPassword");
+        if (blnState == 0) {
+            password.type = "text";
+            blnState = 1;
+            btnShow.innerText = "Hide"
+        } else {
+            password.type = "password";
+            blnState = 0;
+            btnShow.innerText = "Show"
+        }
+    };
+
+    btnShow.addEventListener("click", showPass)
+</script>
 
 </html>
