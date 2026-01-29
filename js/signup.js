@@ -14,4 +14,4 @@ function showPass()  {
     }
 };
 
-btnShow.addEventListener("click", showPass)
+// btnShow.addEventListener("click", showPass)

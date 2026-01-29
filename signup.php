@@ -65,9 +65,12 @@
                         <div class="form-group">
                             <label for="txtPassword">Enter Password:</label>
                             <div>
-                                <input class="form-control" type="password" name="txtPassword" id="txtPassword"
-                                    placeholder="Enter Your Password" required>
-                                <button type="button" id="show" class="btn btn-secondary btn-sm mt-2" onclick="showPass()">Show</button>
+
+                                <label for="txtPassword">Enter Password</label>
+                                <div style="border:solid; width:210px;height:20px">
+                                    <input on type="password" name="txtPassword" id="txtPassword" style="border:none">
+                                    <i id="show" we style="cursor:pointer">show</i>
+                                </div>
                             </div>
                         </div>
 
@@ -95,9 +98,9 @@
 <script>
     let blnState = 0;
     let btnShow = document.getElementById("show")
+    let password = document.getElementById("txtPassword");
 
     function showPass() {
-        let password = document.getElementById("txtPassword");
         if (blnState == 0) {
             password.type = "text";
             blnState = 1;
@@ -109,7 +112,7 @@
         }
     };
 
-    btnShow.addEventListener("click", showPass)
+    // btnShow.addEventListener("click", showPass)
 </script>
 
 </html>
