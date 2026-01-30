@@ -1,9 +1,9 @@
 let blnState = 0;
 let btnShow = document.getElementById("show")
 
-function showPass()  {
+const showPass = () =>  {
     let password = document.getElementById("txtPassword");
-    if (blnState == 0) {
+    if (blnState === 0) {
         password.type = "text";
         blnState = 1;
         btnShow.innerText = "Hide"
@@ -14,4 +14,4 @@ function showPass()  {
     }
 };
 
-// btnShow.addEventListener("click", showPass)
+ btnShow.addEventListener("click", showPass)

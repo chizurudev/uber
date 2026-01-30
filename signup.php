@@ -60,24 +60,31 @@
                             <label for="txtUsername">Username:</label>
                             <input class="form-control" type="text" name="txtUsername" id="txtUsername"
                                 placeholder="Enter Your Username" required>
+
                         </div>
 
                         <div class="form-group">
-                            <label for="txtPassword">Enter Password:</label>
-                            <div>
-
-                                <label for="txtPassword">Enter Password</label>
-                                <div style="border:solid; width:210px;height:20px">
-                                    <input on type="password" name="txtPassword" id="txtPassword" style="border:none">
-                                    <i id="show" we style="cursor:pointer">show</i>
+                            <label for="txtPassword">Password:</label>
+                            <div class="input-group">
+                                <input class="form-control" type="password" name="txtPassword" id="txtPassword"
+                                    placeholder="Enter Your Password" required>
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button" id="show"
+                                        >Show</button>
                                 </div>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="txtPassword">Confirm Password:</label>
-                            <input class="form-control" type="password" name="txtCPassword" id="txtCPassword"
-                                placeholder="Confirm Your Password" required>
+                            <label for="txtConfirmPassword">Confirm Password:</label>
+                            <div class="input-group">
+                                <input class="form-control" type="password" name="txtConfirmPassword" id="txtConfirmPassword"
+                                    placeholder="Re-enter Your Password" required>
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button" id="show"
+                                         >Show</button>
+                                </div>
+                            </div>
                         </div>
                         <hr>
                         <p>By clicking register you agree to our <a href="conditions.php">Terms & Conditions.</a></p>
@@ -95,13 +102,13 @@
         </form>
     </div>
 </body>
-<script>
+<!-- <script>
     let blnState = 0;
     let btnShow = document.getElementById("show")
     let password = document.getElementById("txtPassword");
 
     function showPass() {
-        if (blnState == 0) {
+        if (blnState === 0) {
             password.type = "text";
             blnState = 1;
             btnShow.innerText = "Hide"
@@ -112,7 +119,7 @@
         }
     };
 
-    // btnShow.addEventListener("click", showPass)
-</script>
+    btnShow.addEventListener("click", showPass)
+</script> -->
 
 </html>
