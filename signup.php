@@ -24,8 +24,8 @@
 
         <form action="post">
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6" id="form">
+                <div class="col-md-4"></div>
+                <div class="col-md-4" id="form">
                     <div class="card card-body" id="body">
                         <h3>Register</h3>
                         <p>Please fill in this form to create an account</p>
@@ -94,7 +94,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-4"></div>
             </div>
             <?php
             ?>
